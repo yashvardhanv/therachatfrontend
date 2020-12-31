@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="description" content="An Emotionally Inteligent Chatbot that Can Talk With You And Make You Feel Heard">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title> TheraChat An AI Chatbot</title>
+    <link rel = "icon" href = "logo.svg"type = "image/x-icon"> 
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+  	<a class="nav-link active" aria-current="page" href="/therachatfronend/index.html"><img src="logo.svg" height="40vh" width="40vw"></a>
+    <a class="navbar-brand" href="/therachatfronend/index.html">TheraChat</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+ 
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/therachatfronend/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/therachatfronend/about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/therachatfronend/contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/therachatfronend/faq.html">FAQ</a>
+        </li>
+      </ul>
+      <!-- chatnow modal -->
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdropchatnow" style="margin-right: 1vw;">
+ Chat Now
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdropchatnow" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabelchatnow" aria-hidden="true">
+  <div class="modal-dialog" style="float: right;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">TheraChat</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+ <form  class="form-container">
+ 	<p class="lead"   style=" margin-top: 20vh;margin-bottom: 1vh;font-size: 2vw; background-color: #ff80b9;
+	border-radius: 10vw;
+	width: 10vw;
+	padding-left: 1vw;" ><img src="logo.svg" height="20vh" width="20vw" >
+ 	Hello! </p>
+ 	<p class="lead"   style=" margin-bottom: 1vh;font-size: 2vw;float: right; background-color: #99bdff;
+	border-radius: 10vw;
+	width: 13vw;
+	padding-left: 1vw;" >
+ 	Hello! <img src="face.svg" height="20vh" width="20vw" style="margin-left: 3vw;"> </p>
+     <input class="form-control" type="text" placeholder="Enter Your Message" >
+
+  </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- chatnow finished -->
+     <!-- Sign Up -->
+<!-- Button trigger modal -->
+<button type="button" style="margin-right: 1vw" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Create Account
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Sign Up</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- form -->
+        <input class="form-control" type="text" placeholder="Your First Name" style="margin-bottom: 1vh">
+        <input class="form-control" type="text" placeholder="Your Last Name" style="margin-bottom: 1vh">
+        <input class="form-control" type="email" placeholder="Your Email" style="margin-bottom: 1vh">
+        <input class="form-control" type="password" placeholder="Choose Your Password" style="margin-bottom: 1vh">
+        <input class="form-control" type="text" placeholder="Enter Password Again" style="margin-bottom: 1vh">
+        <p>Date Of Birth :</p>
+        <input class="form-control" type="date" placeholder="Date Of Birth">
+      
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button type="button" class="btn btn-outline-primary">Create Account</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Login -->
+   <!-- Login -->
+<button type="button" style="margin-right: 1vw" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+Login
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel1">Login</h5>
+       
+      </div>
+      <div class="modal-body">
+        <!-- form -->
+      
+        <input class="form-control" type="email" placeholder="Your Email" style="margin-bottom: 1vh">
+        <input class="form-control" type="password" placeholder="Enter Your Password" style="margin-bottom: 1vh">
+       
+
+      </div>
+      <div class="modal-footer">
+      	<a href="#">Forgot Password?</a>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button type="button" class="btn btn-outline-primary">login To Account</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</nav>
+<!--new code after -->
+<div class="inline">
+	<img src="discuss.webp" class="img-fluid" alt="Getting Help" >
+</div>
+<div class="inline">
+	<h1 class="display-1" style="font-size: 4vw">Getting Help</h1>
+	<h1 class="display-6" style="font-size: 3vw;"> Sometimes you need to talk things through.</h1>
+</p>
+</div>
+
+<!-- cards -->
+<div class="card" style="width: 18rem;margin-left:2vw;margin-top: 1vh;margin-right:2vw;display: inline-block;">
+  <img src="meditation.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title" style="font-size: 1.5vw;">Meditation</h5>
+    <p class="card-text" style="font-size: 1vw;">Achieve a mentally clear and emotionally calm and stable state.</p>
+    <a href="#" class="btn btn-primary">Do It Now</a>
+  </div>
+</div>
+<!-- second card -->
+<div class="card" style="width: 18rem;margin-top: 1vh;margin-right:2vw;display: inline-block;">
+  <img src="anger.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title" style="font-size: 1.5vw;">Anger Management</h5>
+    <p class="card-text" style="font-size: 1vw;">Anger management is a psycho-therapeutic program for anger control.</p>
+    <a href="#" class="btn btn-primary">Do It Now</a>
+  </div>
+</div>
+<!-- third card -->
+<div class="card" style="width: 18rem;margin-top: 1vh;margin-right:2vw;display: inline-block;">
+  <img src="stress.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title" style="font-size: 1.5vw;">Stress management</h5>
+    <p class="card-text" style="font-size: 1vw;">Stress management is a technique aimed at controlling stress.</p>
+    <a href="#" class="btn btn-primary">Do It Now</a>
+  </div>
+</div>
+<!-- fourth card -->
+<div class="card" style="width: 18rem;margin-top: 1vh;display: inline-block;">
+  <img src="depression.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title" style="font-size: 1.5vw;">Cure Depression</h5>
+    <p class="card-text" style="font-size: 1vw;">Talk Therapy is a effective way to cure depression and enxiety.</p>
+    <a href="#" class="btn btn-primary">Do It Now</a>
+  </div>
+</div>
+<!-- cards finish -->
+<!-- features start -->
+<h1 class="display-5" style="margin-left: 2vw;margin-bottom: 3vh;margin-top: 2vh;">Some Features Of Our Website:</h1>
+<div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="cbt.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="display-5" style="color: white;">CBT Technics</h1>
+       <p class="lead"style="color: white;font-size: 2vw;">Advanced Cognitive Behavioral Therapy is a psycho-social intervention that aims to improve mental health. </p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="inspirational.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+         <h1 class="display-5"style="color: white;">Get Motivated</h1>
+        <p class="lead"style="color: white;font-size: 2vw;">Get Your Confidence Back And Start A New Life.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="goobvibes.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+         <h1 class="display-5"style="color: white;">Good Vibes Only</h1>
+        <p class="lead"style="color: white;font-size: 2vw;">Say Goodbye To Stress, Depression and Enxiety.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="247.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+         <h1 class="display-5"style="color: white;">24/7 Assistance</h1>
+        <p class="lead"style="color: white;font-size: 2vw;">A 3 Am Friend Which Can Help You Anytime.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+<!-- end of carousel -->
+<!-- footer code -->
+<footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>Ahmedabad, Gujarat</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>9106951079</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>TheraChat@TheraChat.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="/therachatfronend/index.html"><img src="https://www.flaticon.com/svg/static/icons/svg/2728/2728279.svg" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Support Us On Social Media ,Hope You Like Our Website And If You Have Query Or Issue Then Contact Us Without Hesitation.  </p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow Us On:</span>
+                                <a href="#"><img src="facebook.svg"height="40vh" width="40vw" ></a>
+                                <a href="#"><img src="instagram.svg" height="40vh" width="40vw"></a>
+                                <a href="#"><img src="twitter.svg"height="40vh" width="40vw"></a>
+                                <a href="#"><img src="linkedin.svg"height="40vh" width="40vw"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="/therachatfronend/index.html">Home</a></li>                             
+                                <li><a href="/therachatfronend/contact.html">Contact</a></li>
+                                <li><a href="/therachatfronend/about.html">About us</a></li>     
+                                 <li><a href="/therachatfronend/faq.html">FAQ</a></li>                                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><img src="arrow.svg"></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </di
+    </footer>
+<!-- ending footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>
