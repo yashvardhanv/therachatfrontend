@@ -6,7 +6,7 @@
       document
         .getElementById("userInput")
         .scrollIntoView({ block: "start", behavior: "smooth" });
-        var data= "<img src='1.jpg' height='100%' width='100%'>"
+        var data= "Please wait while content is loading <img src='1.jpg' height='100%' width='100%'>"
         var botHtml = '<div class="ChatItem ChatItem--customer"><div class="ChatItem-chatText">' + data + "</div></div>";
         $("#chatbox").append(botHtml);
         document
