@@ -38,45 +38,55 @@
         </li>
       </ul>
       <!-- chatnow modal -->
-      <!-- Button trigger modal -->
-<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdropchatnow" style="margin-right: 1vw;">
- Chat Now
-</button>
+       <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdropchatnow"
+          style="margin-right: 1vw;">
+          Chat Now
+        </button>
 
-<!-- Modal -->
-<div class="modal fade" id="staticBackdropchatnow" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabelchatnow" aria-hidden="true">
-  <div class="modal-dialog" style="float: right;">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5> Chat Now</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-  <div class="row">
-    <div class="col msg-window-container">
-      <div class="card" id="msgWindow">       
-        <div class="card-body" id="msgs">
-          <div class="msg to">Hello! How can I assist you today?</div>
-        </div>
-        <div class="card-footer">
-          <div class="input-group" id="msgForm" data-sender="me">
-            <input class="form-control" type="text" placeholder="Hit [Enter] to send."/>
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button">Send</button>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdropchatnow" data-bs-backdrop="static" data-bs-keyboard="false"
+          tabindex="-1" aria-labelledby="staticBackdropLabelchatnow" aria-hidden="true">
+          <div class="modal-dialog" style="float: right;">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5> Chat Now</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="container1">
+                  <div id="chatbox">
+                    <div class="ChatWindow">
+
+                      <div class="ChatItem ChatItem--customer">
+
+
+
+
+                        <div class="ChatItem-chatText">How can i help you?</div>
+
+                      </div>
+
+                      <div class="ChatItem ChatItem--expert">
+
+
+                        <div class="ChatItem-chatText">Hit Enter to send the message </div>
+
+                      </div>
+                    </div>
+
+
+
+
+                  </div>
+                  <div id="userInput">
+                    <input class='form-control' id="textInput" type="text" name="msg" placeholder="Message" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-      </div>
-     
-    </div>
-  </div>
-</div>
-      <!-- chatnow finished -->
+        <!-- chatnow finished -->
      <!-- Sign Up -->
 <!-- Button trigger modal -->
 <button type="button" style="margin-right: 1vw" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
